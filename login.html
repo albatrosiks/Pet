@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Pet Shop</title>
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <link href="Styles/global.css" rel="stylesheet" />
+    <link href="Styles/login.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Anton|Oswald" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js">
+    </script>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/home.js"></script>
+    <script src="scripts/common.js"></script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <div id="topMenu">
+        <div class="wrap">
+            <div id="topLinks">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="shop.html">Shop</a>
+
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href="login.html">Login</a>
+                    </li>
+                    <li>
+                        <a href=" https://twitter.com/PetShop" class="twitter-follow-button" data-show-count="false">Follow @Petshop</a>
+                    </li>
+                </ul>
+            </div>
+            <a class="logo" href="/">PET SHOP</a>
+        </div>
+    </div>
+</head>
+<div class="wrapper fadeInDown">
+    <div id="formContent">
+        <!-- Tabs Titles -->
+        <h2 class="active"> Sign In </h2>
+        <h2 class="inactive underlineHover">Sign Up </h2>
+
+        <!-- Icon -->
+        <div class="fadeIn first">
+            <img src="images/favicon.png" id="icon" alt="User Icon" />
+        </div>
+
+        <!-- Login Form -->
+        <form>
+            <input type="text" id="login" class="fadeIn second" name="login" placeholder="login">
+            <input type="text" id="password" class="fadeIn third" name="login" placeholder="password">
+            <input type="submit" class="fadeIn fourth" value="Log In">
+        </form>
+
+        <!-- Remind Passowrd -->
+        <div id="formFooter">
+            <a class="underlineHover" href="#">Forgot Password?</a>
+        </div>
+
+    </div>
+</div>
+</div>
+
+</html>

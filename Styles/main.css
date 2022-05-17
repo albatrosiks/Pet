@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'nunito',sans-serif;
+}
+
+body {
+    background-color: #e8eaf6;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 15px 20px;
+    background-color: #fafafa;
+    box-shadow: 0 6px 8px rgba(0,0,0,.1);
+    border-radius: 8px;
+    width: 300px;
+}
+
+    .container h1 {
+        margin-bottom: 12px;
+        color: #1e88e5;
+        text-transform: uppercase;
+    }
+
+    .container label {
+        color: #1e88e5;
+    }
+
+    .container input, textarea {
+        padding: 8px 10px;
+        width: calc(100% - 20px);
+        font-size: 16px;
+        margin: 12px 0;
+        resize: none;
+    }
+
+    .container button {
+        width: 100%;
+        padding: 10px 0;
+        background-color: #1e88e5;
+        border: none;
+        border-radius: 30px;
+        text-transform: uppercase;
+        color: #fafafa;
+        font-weight: bold;
+        transition: .4s;
+    }
+    #googleMap {
+      margin: 0 auto 0 auto;
+    }
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
+
+.contact4 {
+    font-family: "Montserrat", sans-serif;
+    color: #8d97ad;
+    font-weight: 300;
+}
+
+    .contact4 h1, .contact4 h2, .contact4 h3, .contact4 h4, .contact4 h5, .contact4 h6 {
+        color: #3e4555;
+    }
+
+    .contact4 .font-weight-medium {
+        font-weight: 500;
+    }
+
+    .contact4 .form-control {
+        background: transparent;
+        border: 2px solid rgba(255, 255, 255, 0.5);
+    }
+
+        .contact4 .form-control:focus {
+            border-color: #ffffff;
+        }
+
+    .contact4 input::-webkit-input-placeholder,
+    .contact4 textarea::-webkit-input-placeholder {
+        color: rgba(255, 255, 255, 0.7);
+    }
+
+    .contact4 input:-ms-input-placeholder,
+    .contact4 textarea:-ms-input-placeholder {
+        color: rgba(255, 255, 255, 0.7);
+    }
+
+    .contact4 input::placeholder,
+    .contact4 textarea::placeholder {
+        color: rgba(255, 255, 255, 0.7);
+    }
+
+    .contact4 .right-image {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        top: 0;
+    }
+
+    .contact4.bg-info {
+        background-color: #188ef4 !important;
+    }
+
+    .contact4 .text-inverse {
+        color: #3e4555 !important;
+    }
+
+@media (min-width: 1024px) {
+    .contact4 .contact-box {
+        padding: 80px 105px 80px 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .contact4 .contact-box {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .contact4 .right-image {
+        position: relative;
+        bottom: -95px;
+    }
+}
+
+
+
+
